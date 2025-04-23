@@ -7,7 +7,7 @@
     "build": "vinxi build",
     "serve": "vite preview",
     "test": "vitest run",
-    "dev": "PORT=3000 vinxi dev"
+    "dev": "cross-env PORT=3000 vinxi dev"
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^1.1.17",
